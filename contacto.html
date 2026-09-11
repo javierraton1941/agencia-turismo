@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Formulario de contacto de Yahuarcocha Viva."
+    />
+    <title>Contacto | Yahuarcocha Viva</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html"
+          ><img
+            class="brand-mark"
+            src="images/logo.png"
+            alt="Logotipo Yahuarcocha Viva"
+          /><span>Yahuarcocha <b>Viva</b></span></a
+        >
+        <nav class="main-nav" aria-label="Menú principal">
+          <a href="index.html">Inicio</a><a href="destinos.html">Destinos</a
+          ><a href="servicios.html">Servicios</a
+          ><a href="nosotros.html">Nosotros</a
+          ><a class="nav-cta active" href="contacto.html">Contacto</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="contact-hero">
+        <div class="container">
+          <p class="eyebrow light">Hablemos de tu próxima escapada</p>
+          <h1>Tu viaje empieza<br /><em>con una conversación.</em></h1>
+        </div>
+      </section>
+      <section class="section-pad">
+        <div class="container contact-grid">
+          <div class="contact-intro">
+            <p class="eyebrow">Estamos para escucharte</p>
+            <h2>Cuéntanos<br />qué imaginas.</h2>
+            <p>
+              Completa el formulario y te responderemos con una propuesta
+              pensada para tus tiempos, gustos y compañía.
+            </p>
+            <div class="contact-details">
+              <div>
+                <span>Visítanos</span>
+                <p>Av. Atahualpa y Río Tahuando, Ibarra</p>
+              </div>
+              <div>
+                <span>Escríbenos</span
+                ><a href="mailto:hola@yahuarcochaviva.ec"
+                  >hola@yahuarcochaviva.ec</a
+                ><a href="tel:+593983456789">+593 98 345 6789</a>
+              </div>
+              <div>
+                <span>Horario</span>
+                <p>Lunes a sábado · 09:00 a 18:00</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" action="#" method="post">
+            <div class="form-row">
+              <div class="field">
+                <label for="nombre">Nombre completo *</label
+                ><input
+                  id="nombre"
+                  name="nombre"
+                  type="text"
+                  required
+                  placeholder="Tu nombre"
+                />
+              </div>
+              <div class="field">
+                <label for="correo">Correo electrónico *</label
+                ><input
+                  id="correo"
+                  name="correo"
+                  type="email"
+                  required
+                  placeholder="nombre@correo.com"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="telefono">Teléfono *</label
+                ><input
+                  id="telefono"
+                  name="telefono"
+                  type="tel"
+                  required
+                  placeholder="09 0000 0000"
+                />
+              </div>
+              <div class="field">
+                <label for="fecha">Fecha *</label
+                ><input id="fecha" name="fecha" type="date" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="destino">Destino o actividad</label
+                ><select id="destino" name="destino">
+                  <option value="">Selecciona una opción</option>
+                  <option>Laguna de Yahuarcocha</option>
+                  <option>Mirador de San Pablo</option>
+                  <option>Ruta de sabores</option>
+                  <option>Montaña y laguna</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="personas">Número de personas *</label
+                ><input
+                  id="personas"
+                  name="personas"
+                  type="number"
+                  min="1"
+                  max="30"
+                  required
+                  placeholder="2"
+                />
+              </div>
+            </div>
+            <div class="field">
+              <label for="servicio">Tipo de servicio</label
+              ><select id="servicio" name="servicio">
+                <option value="">Selecciona el tipo</option>
+                <option>Tour de un día</option>
+                <option>Paquete de fin de semana</option>
+                <option>Tour privado</option>
+                <option>Transporte turístico</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="mensaje">Mensaje</label
+              ><textarea
+                id="mensaje"
+                name="mensaje"
+                rows="4"
+                placeholder="Cuéntanos qué te gustaría vivir..."
+              ></textarea>
+            </div>
+            <button class="button button-dark" type="submit">
+              Enviar solicitud <span>→</span>
+            </button>
+            <p class="form-note">
+              * Campos obligatorios. Formulario informativo; no procesa pagos.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand brand-footer" href="index.html"
+            ><img
+              class="brand-mark"
+              src="images/logo.png"
+              alt="Logo Yahuarcocha Viva"
+            /><span>Yahuarcocha <b>Viva</b></span></a
+          >
+          <p>Turismo local con mirada<br />responsable y corazón imbabureño.</p>
+        </div>
+        <div>
+          <p class="footer-label">Explora</p>
+          <a href="destinos.html">Lugares turísticos</a
+          ><a href="servicios.html">Paquetes y servicios</a
+          ><a href="nosotros.html">Nuestra agencia</a>
+        </div>
+        <div>
+          <p class="footer-label">Encuéntranos</p>
+          <p>Ibarra, Imbabura<br />Ecuador</p>
+          <a href="mailto:servicioturistico@yahuarcochaviva.ec">servicioturistico@yahuarcochaviva.ec</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 Yahuarcocha Viva</span
+        ><span>Autor · Luis Javier</span>
+      </div>
+    </footer>
+  </body>
+</html>
