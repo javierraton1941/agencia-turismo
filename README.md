@@ -17,7 +17,7 @@ Sitio web informativo y responsive para promocionar los atractivos naturales, cu
 - CSS3 con variables, selectores, pseudo-clases, box model, Flexbox, Grid y media queries.
 
 ## Captura del sitio
-
+<img src="images/captura.jpeg" width="600" alt="Captura del proyecto">
 
 ## URL del sitio publicado
-
+https://javierraton1941.github.io/agencia-turismo/
